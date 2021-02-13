@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Mod2Component implements OnInit {
 
+fontSize: string = '13px';
+fontFamily: string = 'Verdana, Geneva, Tahoma, sans-serif';
+fontStyle: string = 'italic';
+
+verdanaFontStyle: object = {'font-size': this.fontSize, 'font-family': this.fontFamily, 'font-style': 'italic'};
+
   constructor() { }
 
   ngOnInit(): void {

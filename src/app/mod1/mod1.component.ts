@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mod1.component.css']
 })
 export class Mod1Component implements OnInit {
+  verdanaFont: boolean = true;
+
+  verdanaClass: object = {'verdana-font': true};
 
   constructor() { }
 

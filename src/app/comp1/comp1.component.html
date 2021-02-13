@@ -1,0 +1,18 @@
+<p>Параграф 1</p>
+<hr />
+<ng-template [ngIf]=true><p>Параграф 2</p></ng-template>
+<ng-template><p>Параграф 3</p></ng-template>
+<hr />
+<p *ngIf="true">Параграф 4</p>
+<hr />
+<button (click)="toggle()">toggle</button>
+<p *ngIf="condition">Параграф 5</p>
+<hr />
+<p *ngIf="condition; then p6; else p7">Условие</p>
+<hr />
+<ng-template #p6><p>Параграф 6</p></ng-template>
+<ng-template #p7><p>Параграф 7</p></ng-template>
+
+<p *ngIf="condition; then p8">Условие</p>
+<hr />
+<ng-template #p8><p>Параграф 8</p></ng-template>
