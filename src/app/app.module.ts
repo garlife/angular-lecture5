@@ -7,12 +7,14 @@ import { Mod2Module } from './mod2/mod2.module';
 import { Comp1Component } from './comp1/comp1.component';
 import { CommonModule } from '@angular/common';
 import { Comp2Component } from './comp2/comp2.component';
+import { Comp3Component } from './comp3/comp3.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Comp1Component,
-    Comp2Component
+    Comp2Component,
+    Comp3Component
   ],
   imports: [
     BrowserModule,
